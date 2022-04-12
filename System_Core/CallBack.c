@@ -25,3 +25,6 @@
 //----------------------------------------------------------------------------------------------------
 //	³ÌÐò
 //	
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+	swLED0();
+	return;}

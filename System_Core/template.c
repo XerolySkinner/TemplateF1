@@ -32,7 +32,7 @@ void mainInit(void){
 	HAL_UART_Receive_IT(&huart2,&data_buff,1);
 	HAL_UART_Receive_IT(&huart3,&data_buff,1);
 	return;}
-
+//----------------------------------------------------------------------------------------------------
 void mainCore(void){
 	text(">> 进入主程序\n");
 	while(1){
